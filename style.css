@@ -6,10 +6,31 @@ body {
     background-color: rgb(145, 255, 102);
 }
 
+h1 {
+    font-size: 48px;
+}
+
 main {
     background-color: rgb(243, 243, 243);
     width: 500px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 2px rgba(22, 22, 21, 0.608);
+}
+
+img {
+    width: 100px;
+    float: right;
+    padding-left: 6px;
+}
+
+a {
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(113, 36, 214);
+}
+
+a:hover {
+    text-decoration: underline;
 }
